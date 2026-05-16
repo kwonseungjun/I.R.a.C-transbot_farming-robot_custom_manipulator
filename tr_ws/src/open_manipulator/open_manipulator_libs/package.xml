@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>open_manipulator_libs</name>
+  <version>4.0.4</version>
+  <description>
+    OpenManipulator library (Kinematics lib., Dynamixel lib., Drawing path lib.)
+  </description>
+
+  <maintainer email="willson@robotis.com">Will Son</maintainer>
+  <license>Apache 2.0</license>
+
+  <!-- ROS2 build system -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <build_depend>robotis_manipulator</build_depend>
+  <build_depend>dynamixel_workbench_toolbox</build_depend>
+  
+  <!-- Dependencies -->
+  <depend>rclcpp</depend>
+  <exec_depend>robotis_manipulator</exec_depend>
+  <exec_depend>dynamixel_workbench_toolbox</exec_depend>
+
+  <depend>std_srvs</depend>
+
+  <!-- Export -->
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

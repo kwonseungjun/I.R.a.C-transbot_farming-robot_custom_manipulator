@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>transbot_ctrl</name>
+  <version>0.0.0</version>
+  <description>The transbot_ctrl package for ROS 2</description>
+
+  <maintainer email="yahboom@todo.todo">yahboom</maintainer>
+  <license>TODO</license>
+
+  <!-- 빌드 툴 변경: catkin -> ament_cmake -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <build_depend>rosidl_default_generators</build_depend>
+  <!-- ROS 2 핵심 의존성 -->
+  <depend>rclcpp</depend>
+  <depend>rclpy</depend>
+  <depend>geometry_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>transbot_msgs</depend>
+
+  <!-- 조이스틱 및 컨트롤 관련 실행 의존성 -->
+  <exec_depend>joy</exec_depend>
+  <exec_depend>teleop_twist_joy</exec_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

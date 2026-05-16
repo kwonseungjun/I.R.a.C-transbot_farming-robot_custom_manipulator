@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>transbot_config_camera</name>
+  <version>0.3.0</version>
+  <description>
+    An automatically generated package with all the configuration and launch files for using the transbot_description with MoveIt 2
+  </description>
+  <author email="yahboom@qq.com">yahboom</author>
+  <maintainer email="yahboom@qq.com">yahboom</maintainer>
+  <license>BSD</license>
+
+  <url type="website">http://moveit.ros.org/</url>
+  <url type="bugtracker">https://github.com/ros-planning/moveit2/issues</url>
+  <url type="repository">https://github.com/ros-planning/moveit2</url>
+
+  <!-- 빌드 툴: catkin에서 ament_cmake로 변경 -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- MoveIt 2 및 관련 실행 의존성 -->
+  <exec_depend>moveit_ros_move_group</exec_depend>
+  <exec_depend>moveit_kinematics</exec_depend>
+  <exec_depend>moveit_planners_ompl</exec_depend>
+  <exec_depend>moveit_ros_visualization</exec_depend>
+  <exec_depend>moveit_setup_assistant</exec_depend>
+  <exec_depend>joint_state_publisher</exec_depend>
+  <exec_depend>joint_state_publisher_gui</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>xacro</exec_depend>
+  
+  <!-- 사용자 정의 패키지 의존성 -->
+  <exec_depend>transbot_description</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

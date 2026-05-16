@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>open_manipulator_description</name>
+  <version>2.0.2</version>
+  <description>
+    OpenManipulator 3D model description for visualization and simulation (ROS2)
+  </description>
+
+  <maintainer email="willson@robotis.com">Will Son</maintainer>
+  <license>Apache License 2.0</license>
+
+  <!-- Build system -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Runtime dependencies -->
+  <depend>joint_state_publisher</depend>
+  <depend>robot_state_publisher</depend>
+  <depend>xacro</depend>
+  <depend>urdf</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

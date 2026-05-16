@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>open_manipulator_controller</name>
+  <version>2.0.2</version>
+  <description>OpenManipulator controller package (ROS2)</description>
+
+  <maintainer email="willson@robotis.com">Will Son</maintainer>
+  <license>Apache License 2.0</license>
+
+  <!-- Build system -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Dependencies -->
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>trajectory_msgs</depend>
+  <depend>robotis_manipulator</depend>
+  <depend>open_manipulator_msgs</depend>
+
+
+  <depend>open_manipulator_libs</depend>
+  <depend>dynamixel_workbench_toolbox</depend>
+  <!-- Optional (필요 시) -->
+  <depend>boost</depend>
+
+  <!-- Export -->
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

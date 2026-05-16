@@ -1,0 +1,13 @@
+train: /home/irac/yolov8/strawberry/train/images
+val: /home/irac/yolov8/strawberry/valid/images
+test: /home/irac/yolov8/strawberry/test/images
+
+nc: 1
+names: ['0']
+
+roboflow:
+  workspace: yachay-tech
+  project: strawberry-bqdlj
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yachay-tech/strawberry-bqdlj/dataset/2

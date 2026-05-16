@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>open_manipulator_teleop</name>
+  <version>2.0.2</version>
+  <description>Provides teleoperation using keyboard for OpenManipulator.</description>
+  <license>Apache 2.0</license>
+
+  <author email="thlim@robotis.com">Darby Lim</author>
+  <maintainer email="willson@robotis.com">Will Son</maintainer>
+
+  <!-- 빌드 툴이 catkin에서 ament_cmake로 변경되었습니다 -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- ROS 2 핵심 라이브러리 및 의존성 -->
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>open_manipulator_msgs</depend>
+  <depend>tf2</depend>
+  <depend>tf2_geometry_msgs</depend>
+  <depend>geometry_msgs</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <!-- ROS 2 빌드 타입 명시 -->
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
