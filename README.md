@@ -6,3 +6,5 @@ and also we using intel-realsence & astra pro depth camera for two kind of  YOLO
 
 if you have some misunderstanding part, then you can send a mail to me.
 mail address : "kwonsj75@icloud.com"
+
+Copyright ⓒ 2025. Seungjun Kwon All project cannot be copied without permission
