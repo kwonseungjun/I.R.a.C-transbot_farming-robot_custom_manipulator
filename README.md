@@ -3,7 +3,7 @@ This system is ROS2 PROJECT!
 
 this projet need to using transbot from YAHBOOM robotics and also need open_manipulator produced in ROBOTIS.
 
-But we customized open_manipulator DOF 4-> 5 system.
+But we customized open_manipulator DOF 4 -> 5 -> 6 system.
 
 and also we using intel-realsence & astra pro depth camera for two kind of  YOLO dataset, that's because need to upgrade computer, 'Jetson nano' to 'recomputer-J40'.
 
