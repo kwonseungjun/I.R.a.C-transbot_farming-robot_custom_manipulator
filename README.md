@@ -1,15 +1,95 @@
-# I.R.a.C-transbot_farming-robot_custom_manipulator
-This system is ROS2 PROJECT!
+# < Robot Custom Manipulator >
 
-this projet need to using transbot from YAHBOOM robotics and also need open_manipulator produced in ROBOTIS.
+This project is a ROS2-based mobile manipulation system built on the Transbot platform developed by YAHBOOM Robotics and the OpenManipulator platform developed by ROBOTIS.
 
-But we customized open_manipulator DOF 4 -> 5 -> 6 system.
 
-and also we using intel-realsence & astra pro depth camera for two kind of  YOLO dataset, that's because need to upgrade computer, 'Jetson nano' to 'recomputer-J40'.
+# < Technical Challenges >
 
-if you have some misunderstanding part, then you can send a mail to me.
-1. Mail address : "kwonsj75@icloud.com"
-2. Mail address : "anchan503@naver.com"
-3. Mail address : "pharao7651@gmail.com"
+- Porting unsupported robotic systems to Ubuntu 22.04
+  
+- Real-time manipulation without MoveIt dependency
 
-Copyright ⓒ 2026. Seungjun Kwon All project cannot be copied without permission
+- Synchronization between mobile navigation and manipulator control
+  
+- Extending unsupported manipulator DOF configurations
+
+
+————------------------------------------
+
+The original OpenManipulator system was extensively modified and upgraded from a 4-DOF structure into a customized 6-DOF robotic manipulator to improve spatial manipulation capability and orientation control.
+
+
+The system integrates multiple depth cameras, including Intel RealSense and Astra Pro, for perception and autonomous robotic operation using YOLO-based object detection and segmentation pipelines.
+
+
+To support higher computational requirements for real-time perception and manipulation, the embedded computing platform was upgraded from Jetson Nano to NVIDIA-based reComputer J401.
+
+
+# < Key Features >
+
+	⁃ ROS2-based robotic control architecture
+
+	⁃	Customized 6-DOF robotic manipulator
+
+	⁃	Real-time robotic perception using YOLO
+
+	⁃	Multi-depth-camera integration
+
+	⁃	Autonomous mobile manipulation system
+
+	⁃	Embedded AI inference platform
+
+
+# < Hardware >
+
+	⁃	Transbot mobile platform (YAHBOOM Robotics)
+
+	⁃	Customized OpenManipulator platform (ROBOTIS-based)
+
+	⁃	Intel RealSense depth camera
+
+	⁃	Astra Pro depth camera
+
+	⁃	NVIDIA reComputer J401
+
+
+# < Software >
+
+	⁃	ROS2
+
+	⁃	Ubuntu 22.04
+
+	⁃	Python
+
+	⁃	C++
+
+	⁃	YOLOv8
+
+	⁃	OpenCV
+
+	⁃	TensorRT
+
+
+# < Research Objectives >
+
+	⁃	Autonomous mobile manipulation
+
+	⁃	Real-time robotic perception
+
+	⁃	Embedded robotic system integration
+
+	⁃	Vision-based autonomous operation
+
+	⁃	Robotic manipulation in unstructured environments
+
+
+————------------------------------------
+
+If you have any questions regarding this project, please contact:
+
+1. Mail adress: kwonsj75@icloud.com
+2. Mail adress: anchan503@naver.com
+3. Mail adress: pharao7651@gmail.com
+
+Copyright ⓒ 2026 Seungjun Kwon.
+Unauthorized copying or redistribution of this project is prohibited.
