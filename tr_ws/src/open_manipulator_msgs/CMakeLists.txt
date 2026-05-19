@@ -23,6 +23,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/SetKinematicsPose.srv"
   "srv/SetDrawingTrajectory.srv"
   "srv/SetActuatorState.srv"
+  "srv/Test.srv"
 
   DEPENDENCIES std_msgs geometry_msgs
 )

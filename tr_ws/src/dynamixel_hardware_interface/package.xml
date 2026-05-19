@@ -5,13 +5,11 @@
   <version>1.5.0</version>
   <description>
     ROS 2 package providing a hardware interface for controlling Dynamixel motors via the ROS 2 control framework.
-  </description>
-  <maintainer email="pyo@robotis.com">Pyo</maintainer>
+  </description>  
   <license>Apache 2.0</license>
-  <author email="hjkim@robotis.com">Hye-Jong KIM</author>
-  <author email="wsh@robotis.com">Sungho Woo</author>
-  <author email="wwj@robotis.com">Woojin Wie</author>
-  <author email="ywh@robotis.com">Wonho Yun</author>
+  <maintainer email="kwonsj75@icloud.com">Seung-Jun Kwon</maintainer>
+  <author email="anchan503@naver.com">Seunmgjun-Jun An</author>
+  <author email="pharao7651@gmail.com">Wan-Young Hong</author>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 

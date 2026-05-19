@@ -1,6 +1,3 @@
-/*******************************************************************************
-* Copyright 2026 ROBOTIS CO., LTD. (Modified for ROS 2)
-*******************************************************************************/
 
 #ifndef OPEN_MANIPULATOR_CONTROLLER_H_
 #define OPEN_MANIPULATOR_CONTROLLER_H_

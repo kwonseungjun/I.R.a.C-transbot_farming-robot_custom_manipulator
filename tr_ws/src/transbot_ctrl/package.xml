@@ -5,7 +5,11 @@
   <version>0.0.0</version>
   <description>The transbot_ctrl package for ROS 2</description>
 
-  <maintainer email="yahboom@todo.todo">yahboom</maintainer>
+
+  <maintainer email="kwonsj75@icloud.com">Seung-Jun Kwon</maintainer>
+  <author email="anchan503@naver.com">Seunmgjun-Jun An</author>
+  <author email="pharao7651@gmail.com">Wan-Young Hong</author>
+
   <license>TODO</license>
 
   <!-- 빌드 툴 변경: catkin -> ament_cmake -->

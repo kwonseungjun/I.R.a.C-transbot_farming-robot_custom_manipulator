@@ -6,8 +6,10 @@
     This package contains the manipulation API and functions for controlling the manipulator.
   </description>
 
-  <maintainer email="willson@robotis.com">Will Son</maintainer>
-  <license>Apache 2.0</license>
+  <maintainer email="kwonsj75@icloud.com">Seung-Jun Kwon</maintainer>
+  <author email="anchan503@naver.com">Seunmgjun-Jun An</author>
+  <author email="pharao7651@gmail.com">Wan-Young Hong</author>
+  <license>Apache-2.0</license>
 
   <!-- Build system -->
   <buildtool_depend>ament_cmake</buildtool_depend>

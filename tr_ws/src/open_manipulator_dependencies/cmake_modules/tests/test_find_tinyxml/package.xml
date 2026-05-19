@@ -4,7 +4,11 @@
   <version>0.0.0</version>
   <description>Test package to find TinyXML</description>
 
-  <maintainer email="william@osrfoundation.org">William Woodall</maintainer>
+
+  <maintainer email="kwonsj75@icloud.com">Seung-Jun Kwon</maintainer>
+  <author email="anchan503@naver.com">Seunmgjun-Jun An</author>
+  <author email="pharao7651@gmail.com">Wan-Young Hong</author>
+
 
   <license>BSD</license>
 

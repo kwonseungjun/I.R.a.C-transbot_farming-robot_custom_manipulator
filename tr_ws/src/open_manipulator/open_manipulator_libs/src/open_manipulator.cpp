@@ -1,21 +1,3 @@
-﻿/*******************************************************************************
-* Copyright 2018 ROBOTIS CO., LTD.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*     http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*******************************************************************************/
-
-/* Authors: Darby Lim, Hye-Jong KIM, Ryan Shim, Yong-Ho Na */
-
 #include "../include/open_manipulator_libs/open_manipulator.h"
 #include "../include/open_manipulator_libs/dynamixel.h"
 using namespace robotis_manipulator;
@@ -68,7 +50,7 @@ void OpenManipulator::initOpenManipulator(bool using_actual_robot_state, STRING 
             M_PI_2,    // max joint limit (1.67 rad)
             -2.05,     // min joint limit (-2.05 rad)
             1.0,       // coefficient
-            1.3850917e-01,                                                        // mass
+            4.6050917e-01,                                                        // mass
             robotis_manipulator::math::inertiaMatrix(3.3055381e-04, 9.7940978e-08, -3.8505711e-05,
                                 3.4290447e-04, -1.5717516e-06,
                                 6.0346498e-05),                                   // inertial tensor
@@ -85,16 +67,40 @@ void OpenManipulator::initOpenManipulator(bool using_actual_robot_state, STRING 
           1.53,
           -M_PI_2,
           1.0,
-          1.5274562e-01,
+          3.9074562e-01,
           robotis_manipulator::math::inertiaMatrix(3.0654178e-05, -1.2764155e-06, -2.6874417e-07,
                               2.4230292e-04, 1.1559550e-08,
                               2.5155057e-04),
           robotis_manipulator::math::vector3(9.0909590e-02, 3.8929816e-04, 2.2413279e-04)
           );
+          
+          
+          
+          
+          
+          
+          
+          
+          
   addJoint("joint4",   // 새 관절
           "joint3",     // parent
           "joint5",     // child
-          robotis_manipulator::math::vector3(0.145, 0.0, 0.018),  // 네가 준 값
+          robotis_manipulator::math::vector3(0.1265, 0.0, 0.0),  // 네가 준 값
+          robotis_manipulator::math::convertRPYToRotationMatrix(0.0, 0.0, 0.0),
+          -Z_AXIS,       // 네가 준 축
+          17,           // ID 17
+          M_PI,         // limit
+          -M_PI,
+          1.0,
+          3.3327573e-01,         // mass (임시값 가능)
+          robotis_manipulator::math::inertiaMatrix(1e-5,0,0,1e-5,0,1e-5),
+          robotis_manipulator::math::vector3(0,0,0)
+          );
+          
+  addJoint("joint5",   // 새 관절
+          "joint4",     // parent
+          "joint6",     // child
+          robotis_manipulator::math::vector3(0.073, 0.0, 0.015),  // 네가 준 값
           robotis_manipulator::math::convertRPYToRotationMatrix(0.0, 0.0, 0.0),
           X_AXIS,       // 네가 준 축
           16,           // ID 16
@@ -107,8 +113,8 @@ void OpenManipulator::initOpenManipulator(bool using_actual_robot_state, STRING 
           );
           
           
-  addJoint("joint5",  // my name
-            "joint4",  // parent name
+  addJoint("joint6",  // my name
+            "joint5",  // parent name
             "gripper", // child name
             robotis_manipulator::math::vector3(0.041, 0.0, 0.0),                 // relative position
             robotis_manipulator::math::convertRPYToRotationMatrix(0.0, 0.0, 0.0), // relative orientation
@@ -125,7 +131,7 @@ void OpenManipulator::initOpenManipulator(bool using_actual_robot_state, STRING 
             );
 
   addTool("gripper",  // my name
-          "joint5",   // parent name
+          "joint6",   // parent name
           robotis_manipulator::math::vector3(0.126, 0.0, 0.0),                 // relative position
           robotis_manipulator::math::convertRPYToRotationMatrix(0.0, 0.0, 0.0), // relative orientation
           15,         // actuator id
@@ -162,6 +168,7 @@ void OpenManipulator::initOpenManipulator(bool using_actual_robot_state, STRING 
     jointDxlId.push_back(11);
     jointDxlId.push_back(12);
     jointDxlId.push_back(13);
+    jointDxlId.push_back(17);
     jointDxlId.push_back(16);/**/
     jointDxlId.push_back(14);
     addJointActuator(JOINT_DYNAMIXEL, actuator_, jointDxlId, p_dxl_comm_arg);

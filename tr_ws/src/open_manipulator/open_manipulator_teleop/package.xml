@@ -6,8 +6,9 @@
   <description>Provides teleoperation using keyboard for OpenManipulator.</description>
   <license>Apache 2.0</license>
 
-  <author email="thlim@robotis.com">Darby Lim</author>
-  <maintainer email="willson@robotis.com">Will Son</maintainer>
+  <maintainer email="kwonsj75@icloud.com">Seung-Jun Kwon</maintainer>
+  <author email="anchan503@naver.com">Seunmgjun-Jun An</author>
+  <author email="pharao7651@gmail.com">Wan-Young Hong</author>
 
   <!-- 빌드 툴이 catkin에서 ament_cmake로 변경되었습니다 -->
   <buildtool_depend>ament_cmake</buildtool_depend>

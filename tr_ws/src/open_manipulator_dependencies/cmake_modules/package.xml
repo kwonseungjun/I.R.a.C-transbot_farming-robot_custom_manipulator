@@ -4,14 +4,15 @@
   <version>0.4.1</version>
   <description>A common repository for CMake Modules which are not distributed with CMake but are commonly used by ROS packages.</description>
 
-  <maintainer email="william@osrfoundation.org">William Woodall</maintainer>
+
+  <maintainer email="kwonsj75@icloud.com">Seung-Jun Kwon</maintainer>
+  <author email="anchan503@naver.com">Seunmgjun-Jun An</author>
+  <author email="pharao7651@gmail.com">Wan-Young Hong</author>
+
 
   <license>BSD</license>
 
-  <url type="repository">https://github.com/ros/cmake_modules</url>
-  <url type="bugtracker">https://github.com/ros/cmake_modules/issues</url>
 
-  <author email="william@osrfoundation.org">William Woodall</author>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 

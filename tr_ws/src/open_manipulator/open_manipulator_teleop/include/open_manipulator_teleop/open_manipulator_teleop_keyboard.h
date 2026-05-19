@@ -30,7 +30,7 @@
 #include <unistd.h>
 
 // 하드웨어 구성에 맞춘 상수 정의
-#define NUM_OF_JOINT 5    // ID 11, 12, 13, 16, 14 총 5개
+#define NUM_OF_JOINT 6    // ID 11, 12, 13, 17, 16, 14 총 6개
 #define DELTA 0.01        // XYZ 이동 증분 (1cm)
 #define JOINT_DELTA 0.05  // 조인트 이동 증분 (rad)
 #define PATH_TIME 0.5     // 목표 도달 시간

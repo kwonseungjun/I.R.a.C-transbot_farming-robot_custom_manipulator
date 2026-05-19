@@ -9,7 +9,11 @@
 
   <license>Apache-2.0</license>
 
-  <maintainer email="willson@robotis.com">Will Son</maintainer>
+
+  <maintainer email="kwonsj75@icloud.com">Seung-Jun Kwon</maintainer>
+  <author email="anchan503@naver.com">Seunmgjun-Jun An</author>
+  <author email="pharao7651@gmail.com">Wan-Young Hong</author>
+
 
   <!-- ROS2 build tool -->
   <buildtool_depend>ament_cmake</buildtool_depend>
