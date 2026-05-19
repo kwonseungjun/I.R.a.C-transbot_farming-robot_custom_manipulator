@@ -13,7 +13,7 @@ This project is a ROS2-based mobile manipulation system built on the Transbot pl
   
 - Extending unsupported manipulator DOF configurations
 
-# < Technical Hardware Summery >
+# < Technical Hardware Summary >
 
 The original OpenManipulator system was extensively modified and upgraded from a 4-DOF structure into a customized 6-DOF robotic manipulator to improve spatial manipulation capability and orientation control.
 
@@ -92,3 +92,8 @@ If you have any questions regarding this project, please contact:
 
 Copyright ⓒ 2026 Seungjun Kwon.
 Unauthorized copying or redistribution of this project is prohibited.
+
+
+# < Acknowledgements >
+
+This project was developed based on the Transbot platform by YAHBOOM Robotics and the OpenManipulator platform by ROBOTIS. We sincerely appreciate their open robotic platforms and development resources.
