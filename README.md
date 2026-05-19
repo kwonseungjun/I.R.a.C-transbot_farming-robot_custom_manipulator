@@ -1,9 +1,14 @@
-# < Robot Custom Manipulator >
+# I.R.a.C-transbot_farming-robot_custom_manipulator
+
+### < Custom Mobile Robot System >
+
+<img width="4032" height="3024" alt="IMG_2868" src="https://github.com/user-attachments/assets/2073bb60-1718-45fb-a023-49d519550ae0" />
+
 
 This project is a ROS2-based mobile manipulation system built on the Transbot platform developed by YAHBOOM Robotics and the OpenManipulator platform developed by ROBOTIS.
 
 
-# < Technical Challenges >
+### < Technical Challenges >
 
 - Porting unsupported robotic systems to Ubuntu 22.04
   
@@ -13,7 +18,7 @@ This project is a ROS2-based mobile manipulation system built on the Transbot pl
   
 - Extending unsupported manipulator DOF configurations
 
-# < Technical Hardware Summary >
+### < Technical Hardware Summary >
 
 The original OpenManipulator system was extensively modified and upgraded from a 4-DOF structure into a customized 6-DOF robotic manipulator to improve spatial manipulation capability and orientation control.
 
@@ -24,13 +29,13 @@ The system integrates multiple depth cameras, including Intel RealSense and Astr
 To support higher computational requirements for real-time perception and manipulation, the embedded computing platform was upgraded from Jetson Nano to NVIDIA-based reComputer J401.
 
 
-# < Key Features >
+### < Key Features >
 
-	⁃ ROS2-based robotic control architecture
+	⁃   ROS2-based robotic control architecture
 
 	⁃	Customized 6-DOF robotic manipulator
 
-	⁃	Real-time robotic perception using YOLO
+	⁃	Real-time robotic perception using YOLO V8
 
 	⁃	Multi-depth-camera integration
 
@@ -39,7 +44,7 @@ To support higher computational requirements for real-time perception and manipu
 	⁃	Embedded AI inference platform
 
 
-# < Hardware >
+### < Hardware >
 
 	⁃	Transbot mobile platform (YAHBOOM Robotics)
 
@@ -52,7 +57,7 @@ To support higher computational requirements for real-time perception and manipu
 	⁃	NVIDIA reComputer J401
 
 
-# < Software >
+### < Software >
 
 	⁃	ROS2
 
@@ -69,7 +74,7 @@ To support higher computational requirements for real-time perception and manipu
 	⁃	TensorRT
 
 
-# < Research Objectives >
+### < Research Objectives >
 
 	⁃	Autonomous mobile manipulation
 
@@ -82,18 +87,20 @@ To support higher computational requirements for real-time perception and manipu
 	⁃	Robotic manipulation in unstructured environments
 
 
-————------------------------------------
+##
 
-If you have any questions regarding this project, please contact:
+##### If you have any questions regarding this project, please contact us
 
-1. Mail adress: kwonsj75@icloud.com
-2. Mail adress: anchan503@naver.com
-3. Mail adress: pharao7651@gmail.com
+###### 1. Mail adress: pharao7651@gmail.com
+   
+###### 2. Mail adress: anchan503@naver.com
 
-Copyright ⓒ 2026 Seungjun Kwon.
-Unauthorized copying or redistribution of this project is prohibited.
+###### 3. Mail adress: kwonsj75@icloud.com
 
+#
 
-# < Acknowledgements >
+###### Copyright ⓒ 2026 I.R.a.C Lab, K.I.T Univeersity.
+###### Unauthorized copying or redistribution of this project is prohibited.
 
-This project was developed based on the Transbot platform by YAHBOOM Robotics and the OpenManipulator platform by ROBOTIS. We sincerely appreciate their open robotic platforms and development resources.
+##### < Acknowledgements >
+###### This project was developed based on the Transbot platform by YAHBOOM Robotics and the OpenManipulator platform by ROBOTIS. We sincerely appreciate their open robotic platforms and development resources.
