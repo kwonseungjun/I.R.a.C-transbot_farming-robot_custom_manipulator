@@ -4,6 +4,7 @@
 
 <img width="4032" height="3024" alt="IMG_2868" src="https://github.com/user-attachments/assets/2073bb60-1718-45fb-a023-49d519550ae0" />
 
+#### This project is currently a work in progress.
 
 This project is a ROS2-based mobile manipulation system built on the Transbot platform developed by YAHBOOM Robotics and the OpenManipulator platform developed by ROBOTIS.
 
@@ -23,8 +24,7 @@ This project is a ROS2-based mobile manipulation system built on the Transbot pl
 The original OpenManipulator system was extensively modified and upgraded from a 4-DOF structure into a customized 6-DOF robotic manipulator to improve spatial manipulation capability and orientation control.
 
 
-The system integrates multiple depth cameras, including Intel RealSense and Astra Pro, for perception and autonomous robotic operation using YOLO-based object detection and segmentation pipelines.
-
+The system integrates multiple depth cameras with distinct roles: the Intel RealSense is utilized for perception via a YOLO-based object detection and segmentation pipeline, while the Astra Pro is dedicated to line tracing for autonomous mobile navigation.
 
 To support higher computational requirements for real-time perception and manipulation, the embedded computing platform was upgraded from Jetson Nano to NVIDIA-based reComputer J401.
 
